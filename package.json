@@ -5,11 +5,11 @@
   "dependencies": {
     "mobx": "^5.9.4",
     "mobx-react": "^5.4.4",
-    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
-    "react-scripts-ts": "3.1.0"
+    "react-scripts-ts": "3.1.0",
+    "yarn": "^1.16.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -22,6 +22,21 @@
     "@types/node": "^12.0.2",
     "@types/react": "^16.8.18",
     "@types/react-dom": "^16.8.4",
-    "typescript": "^3.4.5"
-  }
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2"
+  },
+  "main": "./src",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junyunga/template-ts-react.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junyunga/template-ts-react/issues"
+  },
+  "homepage": "https://github.com/junyunga/template-ts-react#readme"
 }

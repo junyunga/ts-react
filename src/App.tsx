@@ -1,12 +1,12 @@
 import * as React from 'react';
-import './App.css';
-import Test from './layout/test';
+import './App.scss';
+import HeaderLayout from 'layout/headerLayout';
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <Test value="test"/>
+        <HeaderLayout />
       </div>
     );
   }
