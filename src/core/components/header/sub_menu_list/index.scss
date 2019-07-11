@@ -1,0 +1,19 @@
+.sub-menu-list-container {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+
+  .container-text-box {
+    background-color: rgb(209, 209, 209);
+    flex: 1;
+  }
+  .sub-menu-list {
+    flex: 2;
+  }
+}

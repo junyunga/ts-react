@@ -4,7 +4,7 @@ import './index.scss';
 class BottomLayout extends React.Component {
     public render() {
         return(
-            <div>BottomLayout</div>
+            <footer>BottomLayout</footer>
         );
     }
 }
