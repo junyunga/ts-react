@@ -15,5 +15,17 @@
   }
   .sub-menu-list {
     flex: 2;
+    display: flex;
+    flex-direction: row;
+
+    .sub-menu-list__inner {
+      flex: 1 0 auto;
+      .sub-area {
+        li {
+          display: block;
+          height: 20px;
+        }
+      }
+    }
   }
 }
