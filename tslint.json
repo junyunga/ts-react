@@ -10,6 +10,9 @@
   "rules": { 
     "interface-name": false,
     "ordered-imports": [false],
-    "object-literal-sort-keys": [false]
+    "object-literal-sort-keys": [false],
+     "no-console": {
+         "severity": "warning"
+      } 
   }
 }
