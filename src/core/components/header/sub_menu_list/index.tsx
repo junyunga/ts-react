@@ -29,18 +29,21 @@ class SubMenuList extends React.Component<Props> {
                 <div className="sub-menu-list">
                     {
                         submenu.map((item, index) => {
-                            return (<div className="sub-menu-list__inner" key={index}>
-                                {item.title}
-                                <ul className="sub-area" key={item.title}>
-                                    {
-                                        item.list.length > 0 &&
-                                        item.list.map((subItem, subIndex) => {
-                                            return (<li key={subIndex}>{subItem}</li>)
-                                        })
-                                    }
-                                </ul>
-                            </div>);
-
+                            return (
+                                <div className="sub-menu-list__inner--wrapper" key={index}>
+                                    <div className="sub-menu-list__inner">
+                                        {item.title}
+                                        <ul className="sub-area" key={item.title}>
+                                            {
+                                                item.list.length > 0 &&
+                                                item.list.map((subItem, subIndex) => {
+                                                    return (<li key={subIndex}>{subItem}</li>)
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            );
                         })
                     }
                 </div>

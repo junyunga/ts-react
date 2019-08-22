@@ -17,13 +17,21 @@
     flex: 2;
     display: flex;
     flex-direction: row;
-
-    .sub-menu-list__inner {
+    .sub-menu-list__inner--wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
       flex: 1 0 auto;
-      .sub-area {
-        li {
-          display: block;
-          height: 20px;
+      .sub-menu-list__inner {
+        height: 20%;
+        flex: 1 1 auto;
+        .sub-area {
+          list-style-type: circle;
+          height: 80%;
+          li {
+            display: block;
+            height: 30px;
+          }
         }
       }
     }

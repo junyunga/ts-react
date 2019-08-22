@@ -27,6 +27,9 @@
           justify-content: center;
           flex: 1 0 auto;
           height: 144px;
+          &:hover {
+            cursor: pointer;
+          }
           a {
             color: #fff;
             font-size: 20px;
