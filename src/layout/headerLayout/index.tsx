@@ -2,6 +2,7 @@ import * as React from 'react';
 import './index.scss';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import SubMenuList from 'core/components/header/sub_menu_list';
+import logo from 'assets/moornmo.png';
 // RouteComponentProps
 
 
@@ -96,7 +97,7 @@ export default class HeaderLayout extends React.Component {
                 <Router>
                     <div className="header__inner">
                         <div className="logo">
-                            <Link to="/"><img src="" alt="회사로고" /></Link></div>
+                            <Link to="/"><img src={logo} alt="회사로고" /></Link></div>
                         <nav>
                             <ul className="area">
                                 {
