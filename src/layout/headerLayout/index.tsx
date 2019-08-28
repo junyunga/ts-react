@@ -17,7 +17,7 @@ export default class HeaderLayout extends React.Component {
 
     public menu: Menu = {
         listInfo: [{
-            title: 'Sonlution&Service',
+            title: 'Sonlution & Service',
             path: '/solution',
             list: [{
                 title: 'Solution Map',
@@ -27,7 +27,7 @@ export default class HeaderLayout extends React.Component {
                 list: []
             }, {
                 title: '데이터 보안',
-                list: ['화면 보안', '모바일 보안', '멀티미디어 보안', 'PC 영역 보안']
+                list: ['화면 보안', '모바일 보안', '멀티미디어 보안', 'PC 영역 보안','PC 영역 보안','PC 영역 보안','PC 영역 보안','PC 영역 보안']
             }, {
                 title: '보안 관제',
                 list: ['웹 사이트 보안']

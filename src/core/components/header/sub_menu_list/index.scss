@@ -1,36 +1,86 @@
 .sub-menu-list-container {
   width: 100%;
-  height: 150px;
+  min-height: 200px;
   background-color: #fff;
   position: absolute;
   top: 160px;
   left: 0;
   display: flex;
   flex-direction: row;
-  padding: 8px;
+  border-radius: 0 0 20px 20px;
 
   .container-text-box {
-    background-color: rgb(209, 209, 209);
+    background-color: #efefef;
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 0 0 0 20px;
+
+    .left-sub-box {
+      width: 60%;
+      text-align: left;
+      padding-right: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      .left-sub-box__header {
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+      }
+      .left-sub-box__body {
+        width: 80%;
+        height: 50px;
+      }
+    }
   }
   .sub-menu-list {
+    position: relative;
     flex: 2;
-    display: flex;
-    flex-direction: row;
-    .sub-menu-list__inner--wrapper {
-      display: flex;
-      flex-direction: column;
+    padding: 20px 20px;
+    height: 100%;
+    .right-sub-box {
+      width: 60%;
       height: 100%;
-      flex: 1 0 auto;
-      .sub-menu-list__inner {
-        height: 20%;
-        flex: 1 1 auto;
-        .sub-area {
-          list-style-type: circle;
-          height: 80%;
-          li {
-            display: block;
-            height: 30px;
+      justify-content: flex-start;
+      display: flex;
+      flex-direction: row;
+      .sub-menu-list__inner--wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        flex: 1 0 auto;
+        .sub-menu-list__inner {
+          height: 20%;
+          flex: 1 1 auto;
+          text-align: left;
+          .sub-menu-list-title {
+            height: 40px;
+            color: #999;
+            padding-left: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            &:hover {
+              color: #000;
+              cursor: pointer;
+            }
+          }
+          .sub-area {
+            list-style-type: disc;
+            position: relative;
+            height: 100%;
+            text-align: left;
+            li {
+              height: 28px;
+              color: rgb(152, 152, 152);
+              font-size: 14px;
+              &:hover {
+                cursor: pointer;
+                color: rgb(112, 221, 254);
+              }
+            }
           }
         }
       }

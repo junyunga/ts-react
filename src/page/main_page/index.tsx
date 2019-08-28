@@ -4,11 +4,9 @@ import './index.scss';
 
 class MainPage extends React.Component {
     public render() {
-        return(
+        return (
             <div className="main-container">
-                <div className="main-visual">
-                    main-visual
-                </div>
+                <div className="main-visual" />
                 <div className="main-content">
                     main-content
                 </div>
