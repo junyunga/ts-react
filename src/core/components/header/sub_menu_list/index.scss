@@ -1,3 +1,5 @@
+@import "utils";
+
 .sub-menu-list-container {
   width: 100%;
   min-height: 200px;
@@ -78,7 +80,7 @@
               font-size: 14px;
               &:hover {
                 cursor: pointer;
-                color: rgb(112, 221, 254);
+                color: $hover_color;
               }
             }
           }
