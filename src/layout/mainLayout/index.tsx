@@ -1,11 +1,14 @@
 import * as React from 'react';
-import './index.scss';
+import mainLayout from  './index.scss';
+import className from 'classnames/bind';
 import MainPage from 'src/page/main_page';
+
+const c =  className.bind(mainLayout);
 
 class MainLayout extends React.Component {
     public render() {
         return (
-            <section className="main-layout">
+            <section className={c('main-layout')}>
                 <MainPage />
             </section>
         );
