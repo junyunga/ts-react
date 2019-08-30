@@ -14,7 +14,9 @@ class BottomLayout extends React.Component {
                     1
                 </div>
                 <div className={c('footer__site-map')}>
-                    22
+                    <div className={c('wrapper')}>
+                        1111
+                    </div>
                 </div>
                 <div className={c('footer__comopay-info')}>
                     <div className={c('wrapper')}>
@@ -26,6 +28,7 @@ class BottomLayout extends React.Component {
                         </div>
                         <div className={c('body')}>
                             <div className={c('address')}>부산광역시 도레미파솔라시도!!</div>
+                            <div>0838whenw ahensdhanwhd ajwsjad saklwjakw djwaTEL :00291010192901</div>
                         </div>
                     </div>
                 </div>
